@@ -4,7 +4,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet0'
+  port : 'Ethernet0'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -16,7 +16,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet4'
+  port : 'Ethernet4'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -28,7 +28,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet8'
+  port : 'Ethernet8'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -40,7 +40,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet12'
+  port : 'Ethernet12'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -52,7 +52,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet16'
+  port : 'Ethernet16'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -64,7 +64,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet20'
+  port : 'Ethernet20'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -76,7 +76,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet24'
+  port : 'Ethernet24'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -88,7 +88,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet28'
+  port : 'Ethernet28'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -100,7 +100,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet32'
+  port : 'Ethernet32'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -112,7 +112,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet36'
+  port : 'Ethernet36'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -124,7 +124,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet40'
+  port : 'Ethernet40'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -136,7 +136,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet44'
+  port : 'Ethernet44'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -148,7 +148,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet48'
+  port : 'Ethernet48'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -160,7 +160,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet52'
+  port : 'Ethernet52'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -172,7 +172,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet56'
+  port : 'Ethernet56'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -184,7 +184,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet60'
+  port : 'Ethernet60'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -196,7 +196,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet64'
+  port : 'Ethernet64'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -208,7 +208,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet68'
+  port : 'Ethernet68'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -220,7 +220,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet72'
+  port : 'Ethernet72'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -232,7 +232,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet76'
+  port : 'Ethernet76'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -244,7 +244,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet80'
+  port : 'Ethernet80'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -256,7 +256,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet84'
+  port : 'Ethernet84'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -268,7 +268,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet88'
+  port : 'Ethernet88'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -280,7 +280,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet92'
+  port : 'Ethernet92'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -292,7 +292,7 @@ parsed_sample:
 
 
 - port_state : 'Rx'
-  port_number : 'Ethernet96'
+  port : 'Ethernet96'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -304,7 +304,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet0'
+  port : 'Ethernet0'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -316,7 +316,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet4'
+  port : 'Ethernet4'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -328,7 +328,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet8'
+  port : 'Ethernet8'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -340,7 +340,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet12'
+  port : 'Ethernet12'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -352,7 +352,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet16'
+  port : 'Ethernet16'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -364,7 +364,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet20'
+  port : 'Ethernet20'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -376,7 +376,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet24'
+  port : 'Ethernet24'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -388,7 +388,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet28'
+  port : 'Ethernet28'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -400,7 +400,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet32'
+  port : 'Ethernet32'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -412,7 +412,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet36'
+  port : 'Ethernet36'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -424,7 +424,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet40'
+  port : 'Ethernet40'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -436,7 +436,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet44'
+  port : 'Ethernet44'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -448,7 +448,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet48'
+  port : 'Ethernet48'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -460,7 +460,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet52'
+  port : 'Ethernet52'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -472,7 +472,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet56'
+  port : 'Ethernet56'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -484,7 +484,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet60'
+  port : 'Ethernet60'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -496,7 +496,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet64'
+  port : 'Ethernet64'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -508,7 +508,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet68'
+  port : 'Ethernet68'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -520,7 +520,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet72'
+  port : 'Ethernet72'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -532,7 +532,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet76'
+  port : 'Ethernet76'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -544,7 +544,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet80'
+  port : 'Ethernet80'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -556,7 +556,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet84'
+  port : 'Ethernet84'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -568,7 +568,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet88'
+  port : 'Ethernet88'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -580,7 +580,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet92'
+  port : 'Ethernet92'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
@@ -592,7 +592,7 @@ parsed_sample:
 
 
 - port_state : 'Tx'
-  port_number : 'Ethernet96'
+  port : 'Ethernet96'
   pfc0 : '0'
   pfc1 : '0'
   pfc2 : '0'
