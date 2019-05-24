@@ -15,6 +15,6 @@ Start
   ^Software Version\s+:\s+${OS_VERSION}
   ^Unit Type
   ^-+
-  ^*?\s+${UNIT}\s+${UNIT_TYPE}\s+${SERIAL}\s+${PART_NUMBER}\s+${REVISION}\s+${PART_ID}\s+${SERVICE_TAG}
+  ^\*?\s+${UNIT}\s+${UNIT_TYPE}\s+${SERIAL}\s+${PART_NUMBER}\s+${REVISION}\s+${PART_ID}\s+${SERVICE_TAG}
 
 EOF
