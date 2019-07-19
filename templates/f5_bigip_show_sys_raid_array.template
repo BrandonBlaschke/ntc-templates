@@ -6,7 +6,7 @@ Value ARRAY_STATUS (\S+)
 
 Start
   ^--+
-  ^Sys::Raid::ARRAY_MEMBER
+  ^Sys::Raid::Array
   ^Size\s\S+
   ^Bay ID\s
   ^${BAY_ID}\s+${SERIAL_NUMBER}\s+${NAME}\s+${ARRAY_MEMBER}\s+${ARRAY_STATUS} -> Record
