@@ -17,5 +17,9 @@ Start
   ^Type\s+Chip.+
   ^-.+
   ^${TYPE}\s+${CHIP}\s+${COUNTER_NAME}\s+:\s+${COUNT}\s+:\s+${FIRST_OCCURRENCE}\s+:\s+${LAST_OCCURRENCE} -> Record
-  
+  ^\s+$$
+  ^$$
+  ^.* -> Error "LINE NOT FOUND"
+
+EOF  
   
