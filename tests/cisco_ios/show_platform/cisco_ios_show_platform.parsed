@@ -1,0 +1,91 @@
+parsed_sample:
+
+  slot : '0'
+  chassis_type : 'ISR4351/K9'
+  type : 'ISR4351/K9'
+  state : 'ok'
+  insert_time : '1y18w'
+
+
+  slot : '0/0'
+  chassis_type : 'ISR4351/K9'
+  type : 'ISR4351-3x1GE'
+  state : 'ok'
+  insert_time : '1y18w'
+
+
+  slot : '0/1'
+  chassis_type : 'ISR4351/K9'
+  type : 'NIM-24A'
+  state : 'ok'
+  insert_time : '22w0d'
+
+
+  slot : '0/2'
+  chassis_type : 'ISR4351/K9'
+  type : 'NIM-24A'
+  state : 'ok'
+  insert_time : '8w2d'
+
+
+  slot : '0/3'
+  chassis_type : 'ISR4351/K9'
+  type : 'NIM-24A'
+  state : 'ok'
+  insert_time : '8w5d'
+
+
+  slot : '1'
+  chassis_type : 'ISR4351/K9'
+  type : 'SM-X-NIM-ADPTR'
+  state : 'ok'
+  insert_time : '1y18w'
+
+
+  slot : '1/0'
+  chassis_type : 'ISR4351/K9'
+  type : 'NIM-24A'
+  state : 'ok'
+  insert_time : '13:30:55'
+
+
+  slot : '2'
+  chassis_type : 'ISR4351/K9'
+  type : 'SM-X-NIM-ADPTR'
+  state : 'ok'
+  insert_time : '1y18w'
+
+
+  slot : '2/0'
+  chassis_type : 'ISR4351/K9'
+  type : 'NIM-24A'
+  state : 'ok'
+  insert_time : '15w4d'
+
+
+  slot : 'R0'
+  chassis_type : 'ISR4351/K9'
+  type : 'ISR4351/K9'
+  state : 'ok, active'
+  insert_time : '1y18w'
+
+
+  slot : 'F0'
+  chassis_type : 'ISR4351/K9'
+  type : 'ISR4351/K9'
+  state : 'ok, active'
+  insert_time : '1y18w'
+
+
+  slot : 'P0'
+  chassis_type : 'ISR4351/K9'
+  type : 'PWR-4450-AC'
+  state : 'ok'
+  insert_time : '1y18w'
+
+
+  slot : 'P2'
+  chassis_type : 'ISR4351/K9'
+  type : 'ACS-4450-FANASSY'
+  state : 'ok'
+  insert_time : '1y18w'

@@ -1,0 +1,20 @@
+Value Required SLOT (\d|\d+\/\d+|\S+\d+)
+Value Filldown CHASSIS_TYPE (\S+)
+Value TYPE (\S+)
+Value STATE (ok,\s+active|ok|\S+)
+Value INSERT_TIME (\S+)
+ 
+Start
+  ^Chassis\s+type:\s+${CHASSIS_TYPE} -> Record
+  ^Slot.+\(ago\)
+  ^--.+ -> Data
+ 
+Data
+  ^\s?${SLOT}\s+${TYPE}\s+${STATE}\s+${INSERT_TIME} -> Record
+  ^Slot.+Version
+  ^.+
+  ^\s+$$
+  ^$$
+  ^.* -> Error "LINE NOT FOUND"
+ 
+EOF
