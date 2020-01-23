@@ -1,5 +1,6 @@
 """ntc_templates.parse."""
-import pkg_resources
+import os
+import sys
 try:
     from textfsm import clitable
 except ImportError:
@@ -7,8 +8,10 @@ except ImportError:
 
 
 def _get_template_dir():
-    return pkg_resources.resource_filename("ntc_templates", "templates")
-
+    ntc_template_abspath = os.path.abspath(sys.modules['ntc_templates'].__file__)
+    template_dir = "/home/karathi/ntc-templates/templates/"
+    return template_dir
+    #return pkg_resources.resource_filename("ntc_templates", "templates")
 
 def _clitable_to_dict(cli_table):
     """Convert TextFSM cli_table object to list of dictionaries."""
@@ -20,7 +23,6 @@ def _clitable_to_dict(cli_table):
         objs.append(temp_dict)
 
     return objs
-
 
 def parse_output(platform=None, command=None, data=None):
     """Return the structured data based on the output from a network device."""

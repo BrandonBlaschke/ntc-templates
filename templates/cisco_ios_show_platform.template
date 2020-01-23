@@ -1,5 +1,5 @@
-Value Required SLOT (\d|\d+\/\d+|\S+\d+)
 Value Filldown CHASSIS_TYPE (\S+)
+Value Required SLOT (\d|\d+\/\d+|\S+\d+)
 Value TYPE (\S+)
 Value STATE (ok,\s+active|ok|\S+)
 Value INSERT_TIME (\S+)
