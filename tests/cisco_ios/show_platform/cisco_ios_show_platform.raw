@@ -1,0 +1,25 @@
+Chassis type: ISR4351/K9
+
+Slot      Type                State                 Insert time (ago) 
+--------- ------------------- --------------------- ----------------- 
+0         ISR4351/K9          ok                    1y18w         
+ 0/0      ISR4351-3x1GE       ok                    1y18w         
+ 0/1      NIM-24A             ok                    22w0d         
+ 0/2      NIM-24A             ok                    8w2d          
+ 0/3      NIM-24A             ok                    8w5d          
+1         SM-X-NIM-ADPTR      ok                    1y18w         
+ 1/0      NIM-24A             ok                    13:30:55      
+2         SM-X-NIM-ADPTR      ok                    1y18w         
+ 2/0      NIM-24A             ok                    15w4d         
+R0        ISR4351/K9          ok, active            1y18w         
+F0        ISR4351/K9          ok, active            1y18w         
+P0        PWR-4450-AC         ok                    1y18w         
+P2        ACS-4450-FANASSY    ok                    1y18w         
+
+Slot      CPLD Version        Firmware Version                        
+--------- ------------------- --------------------------------------- 
+0         17100927            16.7(3r)                            
+1         17100927            16.7(3r)                            
+2         17100927            16.7(3r)                            
+R0        17100927            16.7(3r)                            
+F0        17100927            16.7(3r
