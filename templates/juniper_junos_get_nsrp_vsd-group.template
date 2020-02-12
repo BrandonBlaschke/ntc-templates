@@ -1,0 +1,26 @@
+Value Filldown MASTER_UNIT (\d+)
+Value GROUP_ID (\d+)
+Value UNIT_ID (\d+)
+Value STATE (\w.*\w)
+Value PRIO (\d+)
+Value FLAG (\d+)
+Value RTO_PEER (\d+)
+Value HB_NUMBER (\d+)
+Value MISS (\d+)
+Value HOLDDOWN (\d+)
+Value UPTIME (\S+)
+
+Start
+  ^vsd.*master:\s+${MASTER_UNIT} -> DIR
+
+DIR
+  ^member.*
+  ^--.+
+  ^group\s+unit_id.+
+  ^--.+
+  ^\s+${GROUP_ID}\s+${UNIT_ID}\s+${STATE}\s+${PRIO}\s+${FLAG}\s+${RTO_PEER}\s+${HB_NUMBER}\s+${MISS}\s+${HOLDDOWN}\s+${UPTIME} -> Record
+  ^\s+$$
+  ^$$
+  ^.* -> Error "LINE NOT FOUND"
+
+EOF

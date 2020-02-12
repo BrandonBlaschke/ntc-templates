@@ -1,0 +1,16 @@
+Value CHANNEL_TYPE (\w.*\w)
+Value CHANNEL_NAME (\w.*\w)
+Value IF_NUMBER (\d+)
+Value MAC_ADDRESS (\S+)
+Value STATE (\S+)
+
+Start
+  ^probe.* -> DIR
+
+DIR
+  ^${CHANNEL_TYPE}:\s+${CHANNEL_NAME}\s+\(ifnum:\s+${IF_NUMBER}\)\s+mac:\s+${MAC_ADDRESS}\s+state:\s+${STATE} -> Record
+  ^ha.*
+  ^$$
+  ^.* -> Error "LINE NOT FOUND"
+
+EOF
