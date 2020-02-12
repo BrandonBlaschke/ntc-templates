@@ -1,0 +1,5 @@
+total_ha_port = 2
+probe on ha-link is enabled, interval 1s, threshold 5
+data      channel: ethernet3/4 (ifnum: 32)  mac: 002688912720 state: up(probe)
+control   channel: ethernet1/4 (ifnum: 10)  mac: 00268891270a state: up(probe)
+ha secondary path link not available

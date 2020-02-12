@@ -1,0 +1,14 @@
+---
+parsed_sample:
+- channel_type: "data      channel"
+  channel_name: "ethernet3/4"
+  if_number: "32"
+  mac_address: "002688912720"
+  state: "up"
+
+
+- channel_type: "control   channel"
+  channel_name: "ethernet1/4"
+  if_number: "10"
+  mac_address: "00268891270a"
+  state: "up"
