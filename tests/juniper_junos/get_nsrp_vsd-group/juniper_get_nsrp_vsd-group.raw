@@ -1,0 +1,18 @@
+
+VSD group info:
+init hold time: 180
+heartbeat lost threshold: 3
+heartbeat interval: 200(ms)
+master always exist: enabled
+group priority preempt holddown inelig   master       PB other members  myself uptime
+    0       50 yes            3 no       myself  9816192               314d;20:49:49
+total number of vsd groups: 1
+Total iteration=629537568,time=3973360978,max=391413,min=143,average=6
+
+vsd group id: 0, member count: 2, master: 9512704
+member information:
+------------------------------------------------------------------------------------
+group  unit_id  state          prio flag rto_peer   hb miss holddown      uptime
+------------------------------------------------------------------------------------
+    0  9816192  primary backup  100    2        0    1    0        3      314d;20:49:34
+    0  9512704  master           50    2        0    0    0        3      314d;20:49:49

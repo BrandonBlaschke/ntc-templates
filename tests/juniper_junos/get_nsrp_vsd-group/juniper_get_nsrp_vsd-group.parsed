@@ -1,0 +1,26 @@
+---
+parsed_sample:
+- master_unit : '9512704'
+  group_id : '0'
+  unit_id : '9816192'
+  state : 'primary backup'
+  prio : '100'
+  flag : '2'
+  rto_peer : '0'
+  hb_number : '1'
+  miss: '0'
+  holddown : '3'
+  uptime : '311d;18:46:46'
+
+
+- master_unit : '9512704'
+  group_id : '0'
+  unit_id : '9512704'
+  state : 'master'
+  prio : '50'
+  flag : '2'
+  rto_peer : '0'
+  hb_number : '0'
+  miss: '0'
+  holddown : '3'
+  uptime : '311d;18:47:01'
