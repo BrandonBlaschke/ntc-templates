@@ -343,11 +343,11 @@ juniper_junos_show_pfe_route_summary.template, .*, juniper_junos|juniper, sh[[ow
 juniper_junos_show_chassis_firmware.template, .*, juniper_junos|juniper, sh[[ow]] ch[[assis]] fi[[rmware]]
 juniper_junos_show_isis_adjacency.template, .*, juniper_junos|juniper, sh[[ow]] is[[is]] ad[[jacency]]
 juniper_junos_show_route_summary.template, .*, juniper_junos|juniper, sh[[ow]] rou[[te]] summ[[ary]]
+juniper_junos_get_nsrp_vsd-group.template, .*, juniper_junos|juniper, g[[et]] ns[[rp]] vsd[[-group]]
+juniper_junos_get_nsrp_ha-link.template, .*, juniper_junos|juniper, g[[et]] ns[[rp]] ha-[[link]]
 juniper_junos_show_ospf_neighbor.template, .*, juniper_junos|juniper, sh[[ow]] ospf n[[eighbor]]
 juniper_junos_show_arp_no-resolve.template, .*, juniper_junos, sh[[ow]] a[[rp]] n[[o-resolve]]
 juniper_junos_show_interfaces.template, .*, juniper_junos|juniper, sh[[ow]] inte[[rfaces]]
-juniper_junos_get_nsrp_vsd-group.template, .*, juniper_junos|juniper, g[[et]] ns[[rp]] vsd[[-group]]
-juniper_junos_get_nsrp_ha-link.template, .*, juniper_junos|juniper, g[[et]] ns[[rp]] ha-[[link]]
 juniper_junos_show_version.template, .*, juniper_junos, sh[[ow]] ver[[sion]]
 
 juniper_screenos_get_route.template, .*, juniper_screenos, get route
