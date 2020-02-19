@@ -1,4 +1,9 @@
-Value Filldown MASTER_UNIT (\d+)
+Value Filldown PRIORITY (\d+)
+Value Filldown PREEMPT (\S+)
+Value Filldown INELIG (\S+)
+Value Filldown MASTER_UNIT (\S+)
+Value Filldown PB_UNIT (\S+)
+Value Filldown MYSELF_UPTIME (\S+)
 Value GROUP_ID (\d+)
 Value UNIT_ID (\d+)
 Value STATE (\w.*\w)
@@ -11,13 +16,18 @@ Value HOLDDOWN (\d+)
 Value UPTIME (\S+)
 
 Start
-  ^vsd.*master:\s+${MASTER_UNIT} -> DIR
+  ^group\s+priority.*
+  ^\s+\d+\s+${PRIORITY}\s+${PREEMPT}\s+\d+\s+${INELIG}\s+${MASTER_UNIT}\s+${PB_UNIT}\s+${MYSELF_UPTIME} -> DIR
 
 DIR
+  ^total\s+number.*
+  ^Total.*
+  ^\s\S+.*
+  ^vsd\s+group\s+id:.*
   ^member.*
-  ^--.+
+  ^-.+
   ^group\s+unit_id.+
-  ^--.+
+  ^-.+
   ^\s+${GROUP_ID}\s+${UNIT_ID}\s+${STATE}\s+${PRIO}\s+${FLAG}\s+${RTO_PEER}\s+${HB_NUMBER}\s+${MISS}\s+${HOLDDOWN}\s+${UPTIME} -> Record
   ^\s+$$
   ^$$
