@@ -3,6 +3,10 @@ Value LINK_STATUS (\w+)
 Value ADMIN_STATE (\S+)
 Value HARDWARE_TYPE (\S+)
 Value MTU (\d+|Unlimited)
+Value INPUT_RATE (\d+)
+Value OUTPUT_RATE (\d+)
+
+
 
 Start
   ^\s+Logical\s+interface\s+${INTERFACE}
@@ -10,5 +14,8 @@ Start
   ^.*ype:\s+${HARDWARE_TYPE},.*MTU:\s+${MTU}.* -> Record
   ^.*MTU:\s+${MTU}.* -> Record
   ^.*[fF]lags -> Record
+  ^\s+Input\sRate\s+:\s+${INPUT_RATE}.*$$
+  ^\s+Output\sRate\s+:\s+${OUTPUT_RATE}.*$$
+
 
 EOF
