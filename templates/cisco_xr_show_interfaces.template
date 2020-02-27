@@ -11,6 +11,21 @@ Value DUPLEX (.+?)
 Value SPEED (.+?)
 Value BANDWIDTH (\d+\s+\w+)
 Value ENCAPSULATION (\w+)
+Value INPUT_RATE (\d+)
+Value OUTPUT_RATE (\d+)
+Value INPUT_PACKETS (\d+)
+Value INPUT_BYTES (\d+)
+Value INPUT_DROPS (\d+)
+Value OUTPUT_PACKETS (\d+)
+Value OUTPUT_BYTES (\d+)
+Value OUTPUT_DROPS (\d+)
+Value INPUT_ERRORS (\d+)
+Value CRC (\d+)
+Value FRAME (\d+)
+Value OVERRUN (\d+)
+Value OUTPUT_ERRORS (\d+)
+Value UNDERRUNS (\d+)
+
 
 Start
   ^\S+\s+is -> Continue.Record
@@ -21,3 +36,10 @@ Start
   ^\s+MTU\s+${MTU}.*BW\s+${BANDWIDTH}
   ^\s+Encapsulation\s+${ENCAPSULATION}
   ^\s+(?:[Dd]uplex\s+|)${DUPLEX}(?:-[Dd]uplex|),\s+${SPEED},.+link
+  ^.*input\s+rate\s+${INPUT_RATE}.+$$
+  ^.*output\s+rate\s+${OUTPUT_RATE}.+$$
+  ^\s+${INPUT_PACKETS}\s+packets\s+input,\s+${INPUT_BYTES}\s+bytes,\s+${INPUT_DROPS}\s+total\s+input\s+drops\s*$$
+  ^\s+${INPUT_ERRORS}\s+input\s+errors,\s+${CRC}\s+CRC,\s+${FRAME}\s+frame,\s+${OVERRUN}\s+overrun,\s+\d+\s+ignored,\s+\d+\s+abort\s*$$
+  ^\s+${OUTPUT_PACKETS}\s+packets\s+output,\s+${OUTPUT_BYTES}\s+bytes,\s+${OUTPUT_DROPS}\s+total\s+output\s+drops\s*$$
+  ^\s+${OUTPUT_ERRORS}\s+output\s+errors,\s+${UNDERRUNS}\s+underruns,.*$$
+

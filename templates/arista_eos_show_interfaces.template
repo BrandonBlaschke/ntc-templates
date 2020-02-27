@@ -11,7 +11,9 @@ Value BANDWIDTH (\d+\s+\w+)
 Value INPUT_ERRORS (\d+)
 Value OUTPUT_ERRORS (\d+)
 Value CRC (\d+)
+Value COLLISIONS (\d+)
 Value INPUT_DISCARDS (\d+)
+Value OUTPUT_DISCARDS (\d+)
 
 Start
   ^${INTERFACE}\s+is\s+${LINK_STATUS}.*protocol\s+is\s+${PROTOCOL_STATUS} 
@@ -20,4 +22,7 @@ Start
   ^.*MTU\s+${MTU}(.*BW\s+${BANDWIDTH})*
   ^\s+Internet\s+address\s+is\s+${IP_ADDRESS}
   ^\s+${INPUT_ERRORS}\sinput\serrors,\s${CRC}\sCRC.*?${INPUT_DISCARDS}\sinput\sdiscards
-  ^\s+${OUTPUT_ERRORS}\soutput\serrors -> Record
+  ^\s+${OUTPUT_ERRORS}\soutput\serrors,\s+${COLLISIONS}\s+collisions
+  ^.*${OUTPUT_DISCARDS}\soutput\sdiscards
+
+
