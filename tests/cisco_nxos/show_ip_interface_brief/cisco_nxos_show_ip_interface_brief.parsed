@@ -1,0 +1,76 @@
+---
+parsed_sample:
+
+- interface : 'IP'
+  ip : 'Interface'
+  status : 'Status'
+
+
+- interface : 'Interface'
+  ip : 'IP'
+  status : 'Address'
+
+
+- interface : 'Vlan319'
+  ip : '10.89.117.49'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Vlan719'
+  ip : '10.89.192.1'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Vlan819'
+  ip : '10.89.236.1'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Lo0'
+  ip : '25.74.179.88'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Lo1'
+  ip : '10.20.8.199'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Po1'
+  ip : '10.10.192.45'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Po2'
+  ip : '10.10.193.45'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Po3'
+  ip : '10.10.194.45'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Po4'
+  ip : '10.10.195.45'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Po5'
+  ip : '10.10.196.45'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Po6'
+  ip : '10.10.197.45'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Po7'
+  ip : '10.10.198.45'
+  status : 'protocol-up/link-up/admin-up'
+
+
+- interface : 'Po8'
+  ip : '10.10.199.45'
+  status : 'protocol-up/link-up/admin-up'

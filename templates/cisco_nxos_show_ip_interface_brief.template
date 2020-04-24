@@ -1,0 +1,6 @@
+Value INTERFACE (\S+)
+Value IP (\S+)
+Value STATUS (\S+)
+
+Start
+  ^${INTERFACE}\s+${IP}\s+${STATUS}\s+ -> Record
