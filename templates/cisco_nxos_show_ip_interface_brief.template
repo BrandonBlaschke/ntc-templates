@@ -3,4 +3,9 @@ Value IP (\S+)
 Value STATUS (\S+)
 
 Start
+  ^Interface.*IP Address.*Status -> Data
+
+Data
   ^${INTERFACE}\s+${IP}\s+${STATUS}\s+ -> Record
+
+EOF
