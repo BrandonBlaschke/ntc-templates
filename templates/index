@@ -221,6 +221,7 @@ cisco_nxos_show_interfaces_switchport.template, .*, cisco_nxos, sh[[ow]] int[[er
 cisco_nxos_show_cts_interface_brief.template, .*, cisco_nxos, sh[[ow]] cts inte[[rface]] br[[ief]]
 cisco_nxos_show_cts_interface_all.template, .*, cisco_nxos, sh[[ow]] ct[[s]] inter[[face]] al[[l]]
 cisco_nxos_show_ipv6_bgp_summary.template, .*, cisco_nxos, sh[[ow]] ipv[[6]] bg[[p]] su[[mmary]]
+cisco_nxos_show_ip_interface_brief.template, .*, cisco_nxos, sh[[ow]] ip i[[nterface]] b[[rief]]
 cisco_nxos_show_environment_power.template, .*, cisco_nxos, sh[[ow]] env[[ironment]] pow[[er]]
 cisco_nxos_show_ip_community-list.template, .*, cisco_nxos, sh[[ow]] ip comm[[unity-list]]
 cisco_nxos_show_mac_address-table.template, .*, cisco_nxos, sh[[ow]] m[[ac]] addr[[ess-table]]
