@@ -1,0 +1,11 @@
+CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O           PIDS
+e7fea51494db        dhcp_relay          0.03%               18.97MiB / 7.848GiB   0.24%               0B / 0B             5.24MB / 41kB       7
+a52da9e20f36        syncd               40.45%              353.6MiB / 7.848GiB   4.40%               0B / 0B             216MB / 954kB       33
+02c5a9bdeb7b        radv                0.02%               12.48MiB / 7.848GiB   0.16%               0B / 0B             3.74MB / 32.8kB     7
+4e2fc016ccfc        teamd               0.02%               19.53MiB / 7.848GiB   0.24%               0B / 0B             4.82MB / 41kB       17
+9c247bfaf377        snmp                3.62%               50.86MiB / 7.848GiB   0.63%               0B / 0B             34.8MB / 90.1kB     8
+5f2b944d684f        swss                1.60%               43.2MiB / 7.848GiB    0.54%               0B / 0B             73.9MB / 27.5MB     27
+c35a158c5d8c        bgp                 0.33%               74.59MiB / 7.848GiB   0.93%               0B / 0B             18.4MB / 81.9kB     12
+782cf4564646        lldp                0.02%               27.16MiB / 7.848GiB   0.34%               0B / 0B             0B / 98.3kB         10
+5d5dbdb9003c        pmon                0.04%               28.26MiB / 7.848GiB   0.35%               0B / 0B             21MB / 123kB        9
+a90fba719c11        database            47.26%              39.15MiB / 7.848GiB   0.49%               0B / 0B             34MB / 57.3kB       17
