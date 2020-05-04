@@ -1,0 +1,22 @@
+Value ID (\S+)
+Value NAME (\S+)
+Value CPU_PERCENT (\S+)
+Value MEM_USAGE (\S+)
+Value LIMIT (\S+)
+Value MEM_PERCENT (\S+)
+Value DATA_SENT (\S+)
+Value DATA_RECEIVED (\S+)
+Value DATA_READ_TO_BLOCK_DEVICES_ON_HOST (\S+)
+Value DATA_WRITTEN_FROM_BLOCK_DEVICES_ON_HOST (\S+)
+Value PIDS (\S+)
+
+Start
+  ^CONTAINER.*PIDS -> Data
+
+Data
+  ^${ID}\s+${NAME}\s+${CPU_PERCENT}\s+${MEM_USAGE}\s+/\s+${LIMIT}\s+\s+${MEM_PERCENT}\s+${DATA_SENT}\s+/\s+${DATA_RECEIVED}\s+${DATA_READ_TO_BLOCK_DEVICES_ON_HOST}\s+/\s+${DATA_WRITTEN_FROM_BLOCK_DEVICES_ON_HOST}\s+${PIDS} -> Record
+  ^\s+$$
+  ^$$
+  ^.* -> Error "LINE NOT FOUND"  
+  
+EOF 
