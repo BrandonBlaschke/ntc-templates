@@ -1,0 +1,202 @@
+>> Device : str-dcfx-t0-1-06 , Command : crm show resources all
+  stage : ''
+  bind_point : ''
+  resource_name : 'ipv4_route'
+  used_count : '117'
+  available_count : '200357'
+
+
+  stage : ''
+  bind_point : ''
+  resource_name : 'ipv6_route'
+  used_count : '13'
+  available_count : '200357'
+
+
+  stage : ''
+  bind_point : ''
+  resource_name : 'ipv4_nexthop'
+  used_count : '2'
+  available_count : '200357'
+
+
+  stage : ''
+  bind_point : ''
+  resource_name : 'ipv6_nexthop'
+  used_count : '2'
+  available_count : '200357'
+
+
+  stage : ''
+  bind_point : ''
+  resource_name : 'ipv4_neighbor'
+  used_count : '2'
+  available_count : '200357'
+
+
+  stage : ''
+  bind_point : ''
+  resource_name : 'ipv6_neighbor'
+  used_count : '2'
+  available_count : '100178'
+
+
+  stage : ''
+  bind_point : ''
+  resource_name : 'nexthop_group_member'
+  used_count : '4'
+  available_count : '200357'
+
+
+  stage : ''
+  bind_point : ''
+  resource_name : 'nexthop_group'
+  used_count : '2'
+  available_count : '200357'
+
+
+  stage : ''
+  bind_point : ''
+  resource_name : 'fdb_entry'
+  used_count : '0'
+  available_count : '200357'
+
+
+  stage : 'INGRESS'
+  bind_point : 'PORT'
+  resource_name : 'acl_group'
+  used_count : '0'
+  available_count : '197'
+
+
+  stage : 'INGRESS'
+  bind_point : 'PORT'
+  resource_name : 'acl_table'
+  used_count : '2'
+  available_count : '196'
+
+
+  stage : 'INGRESS'
+  bind_point : 'LAG'
+  resource_name : 'acl_group'
+  used_count : '2'
+  available_count : '197'
+
+
+  stage : 'INGRESS'
+  bind_point : 'LAG'
+  resource_name : 'acl_table'
+  used_count : '0'
+  available_count : '196'
+
+
+  stage : 'INGRESS'
+  bind_point : 'VLAN'
+  resource_name : 'acl_group'
+  used_count : '0'
+  available_count : '197'
+
+
+  stage : 'INGRESS'
+  bind_point : 'VLAN'
+  resource_name : 'acl_table'
+  used_count : '0'
+  available_count : '196'
+
+
+  stage : 'INGRESS'
+  bind_point : 'RIF'
+  resource_name : 'acl_group'
+  used_count : '0'
+  available_count : '197'
+
+
+  stage : 'INGRESS'
+  bind_point : 'RIF'
+  resource_name : 'acl_table'
+  used_count : '0'
+  available_count : '196'
+
+
+  stage : 'INGRESS'
+  bind_point : 'SWITCH'
+  resource_name : 'acl_group'
+  used_count : '0'
+  available_count : '197'
+
+
+  stage : 'INGRESS'
+  bind_point : 'SWITCH'
+  resource_name : 'acl_table'
+  used_count : '0'
+  available_count : '196'
+
+
+  stage : 'EGRESS'
+  bind_point : 'PORT'
+  resource_name : 'acl_group'
+  used_count : '0'
+  available_count : '197'
+
+
+  stage : 'EGRESS'
+  bind_point : 'PORT'
+  resource_name : 'acl_table'
+  used_count : '0'
+  available_count : '196'
+
+
+  stage : 'EGRESS'
+  bind_point : 'LAG'
+  resource_name : 'acl_group'
+  used_count : '0'
+  available_count : '197'
+
+
+  stage : 'EGRESS'
+  bind_point : 'LAG'
+  resource_name : 'acl_table'
+  used_count : '0'
+  available_count : '196'
+
+
+  stage : 'EGRESS'
+  bind_point : 'VLAN'
+  resource_name : 'acl_group'
+  used_count : '0'
+  available_count : '0'
+
+
+  stage : 'EGRESS'
+  bind_point : 'VLAN'
+  resource_name : 'acl_table'
+  used_count : '0'
+  available_count : '0'
+
+
+  stage : 'EGRESS'
+  bind_point : 'RIF'
+  resource_name : 'acl_group'
+  used_count : '0'
+  available_count : '197'
+
+
+  stage : 'EGRESS'
+  bind_point : 'RIF'
+  resource_name : 'acl_table'
+  used_count : '0'
+  available_count : '196'
+
+
+  stage : 'EGRESS'
+  bind_point : 'SWITCH'
+  resource_name : 'acl_group'
+  used_count : '0'
+  available_count : '197'
+
+
+  stage : 'EGRESS'
+  bind_point : 'SWITCH'
+  resource_name : 'acl_table'
+  used_count : '0'
+  available_count : '196'
