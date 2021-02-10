@@ -1,0 +1,40 @@
+
+Resource Name           Used Count    Available Count
+--------------------  ------------  -----------------
+ipv4_route                     117             200357
+ipv6_route                      13             200357
+ipv4_nexthop                     2             200357
+ipv6_nexthop                     2             200357
+ipv4_neighbor                    2             200357
+ipv6_neighbor                    2             100178
+nexthop_group_member             4             200357
+nexthop_group                    2             200357
+fdb_entry                        0             200357
+
+
+Stage    Bind Point    Resource Name      Used Count    Available Count
+-------  ------------  ---------------  ------------  -----------------
+INGRESS  PORT          acl_group                   0                197
+INGRESS  PORT          acl_table                   2                196
+INGRESS  LAG           acl_group                   2                197
+INGRESS  LAG           acl_table                   0                196
+INGRESS  VLAN          acl_group                   0                197
+INGRESS  VLAN          acl_table                   0                196
+INGRESS  RIF           acl_group                   0                197
+INGRESS  RIF           acl_table                   0                196
+INGRESS  SWITCH        acl_group                   0                197
+INGRESS  SWITCH        acl_table                   0                196
+EGRESS   PORT          acl_group                   0                197
+EGRESS   PORT          acl_table                   0                196
+EGRESS   LAG           acl_group                   0                197
+EGRESS   LAG           acl_table                   0                196
+EGRESS   VLAN          acl_group                   0                  0
+EGRESS   VLAN          acl_table                   0                  0
+EGRESS   RIF           acl_group                   0                197
+EGRESS   RIF           acl_table                   0                196
+EGRESS   SWITCH        acl_group                   0                197
+EGRESS   SWITCH        acl_table                   0                196
+
+
+Table ID    Resource Name    Used Count    Available Count
+----------  ---------------  ------------  -----------------

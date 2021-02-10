@@ -1,0 +1,17 @@
+Value STAGE (\S+)
+Value BIND_POINT (\S+)
+Value RESOURCE_NAME (\S+)
+Value USED_COUNT (\d+)
+Value AVAILABLE_COUNT (\d+)
+
+
+Start 
+  ^Resource Name.*Available Count -> Data
+
+Data
+  ^-.+
+  ^${RESOURCE_NAME}\s+${USED_COUNT}\s+${AVAILABLE_COUNT} -> Record
+  ^${STAGE}\s+${BIND_POINT}\s+${RESOURCE_NAME}\s+${USED_COUNT}\s+${AVAILABLE_COUNT} -> Record
+  ^\s+$$
+
+EOF
